@@ -31,7 +31,10 @@ return {
       "<cmd>CompilerOpen<cr>",
     },
     ["<leader><F6>"] = {
-      "<cmd>CompilerRedo<cr>",
+      function()
+        vim.cmd("CompilerStop")
+        -- vim.cmd("CompilerRedo") - not works for now
+      end,
     },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
