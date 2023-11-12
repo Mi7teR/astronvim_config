@@ -27,9 +27,5 @@ return {
     }
   },
   { import = "astrocommunity.code-runner.compiler-nvim" },
-  {
-    "Zeioth/compiler.nvim",
-    cmd = { "CompilerOpen", "CompilerToggleResults", "CompilerRedo", "CompilerStop" },
-    opts = {},
-  }
+  { import = "astrocommunity.pack.go" },
 }
