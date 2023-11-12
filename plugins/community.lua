@@ -26,6 +26,5 @@ return {
       },
     }
   },
-  { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.pack.go" },
 }
