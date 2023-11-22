@@ -1,7 +1,6 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.colorscheme.monokai-pro-nvim", enabled = true },
   { -- further customize the options set by the community
     "zbirenbaum/copilot.lua",
     opts = {
