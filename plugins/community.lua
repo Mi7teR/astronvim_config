@@ -16,14 +16,5 @@ return {
       },
     },
   },
-  { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
-  {
-    "akinsho/bufferline.nvim",
-    opts = {
-      options = {
-        separator_style = "slant",
-      },
-    }
-  },
   { import = "astrocommunity.pack.go" },
 }
