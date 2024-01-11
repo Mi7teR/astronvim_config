@@ -14,6 +14,10 @@ return {
           dismiss = "<C/>",
         },
       },
+      filetypes = {
+        yaml = true,
+        markdown = true,
+      }
     },
   },
   { import = "astrocommunity.pack.go" },
