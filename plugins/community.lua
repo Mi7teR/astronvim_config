@@ -21,6 +21,6 @@ return {
     },
   },
   { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.colorscheme.sonokai" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.php" },
 }
